@@ -183,7 +183,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/all_recipe1"
+        android:src="@drawable/all_recipe2"
         app:layout_constraintHeight_percent=".37"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cardview_cookerecipe"

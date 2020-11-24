@@ -22,7 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="111dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/all_recipe1"
+                android:src="@drawable/all_recipe2"
                 app:riv_corner_radius_top_left="15dp"
                 app:riv_corner_radius_top_right="15dp" />
 
