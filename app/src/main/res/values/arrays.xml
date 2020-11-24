@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="images">
+        <item>@drawable/aglio</item>
+        <item>@drawable/all_recipe2</item>
+        <item>@drawable/chicken_wing</item>
+        <item>@drawable/fish_chips</item>
+        <item>@drawable/broccoli_salad</item>
+        <item>@drawable/cookies</item>
+    </array>
+
+    <string-array name="names">
+        <item>Spaghetti Aglio Olio</item>
+        <item>California Grilled Veggie Sandwich</item>
+        <item>Grill Master Chicken Wing</item>
+        <item>Crispy Beer Batter Fish and Chips</item>
+        <item>Broccoli Salad</item>
+        <item>Chocolate Chip Cookie</item>
+    </string-array>
+
+    <string-array name="ratings">
+        <item>4.5</item>
+        <item>4.8</item>
+        <item>4.4</item>
+        <item>4.5</item>
+        <item>4.7</item>
+        <item>4.8</item>
+    </string-array>
+
+    <string-array name="total_cook_time">
+        <item>30 min</item>
+        <item>35 min</item>
+        <item>40 min</item>
+        <item>30 min</item>
+        <item>15 min</item>
+        <item>20 min</item>
+    </string-array>
+
+    <string-array name="prep_time">
+        <item>10 min</item>
+        <item>10 min</item>
+        <item>10 min</item>
+        <item>10 min</item>
+        <item>10 min</item>
+        <item>10 min</item>
+    </string-array>
+
+    <string-array name="cook_time">
+        <item>20 min</item>
+        <item>25 min</item>
+        <item>30 min</item>
+        <item>20 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+    </string-array>
+
+    <string-array name="difficulty">
+        <item>easy</item>
+        <item>easy</item>
+        <item>hard</item>
+        <item>easy</item>
+        <item>easy</item>
+        <item>easy</item>
+    </string-array>
+
+
+    <string-array name="servings">
+        <item>2 pp</item>
+        <item>2 pp</item>
+        <item>3 pp</item>
+        <item>4 pp</item>
+        <item>3 pp</item>
+        <item>2 pp</item>
+    </string-array>
+
+</resources>

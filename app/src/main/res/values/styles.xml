@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name= "AppTheme" parent= "AppBaseTheme" >
+        <item name= "android:textViewStyle" > @style/MontserratTextViewStyle </item>
+        <item name= "android:buttonStyle" > @style/MontserratButtonStyle </item>
+    </style>
+    <style name= "MontserratTextViewStyle" parent= "android:Widget.TextView" >
+        <item name= "android:fontFamily" > @font/montserrat </item>
+    </style>
+    <style name= "MontserratButtonStyle" parent= "android:Widget.Holo.Button" >
+        <item name= "android:fontFamily" > @font/montserrat </item>
+    </style>
+
+    <!-- No Action Bar -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <!-- Splash Screen -->
+    <style name="AppTheme.SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+
+</resources>

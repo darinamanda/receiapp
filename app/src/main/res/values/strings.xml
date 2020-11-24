@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">receiapp</string>
+    <string name="header_title">Welcome to Reciapp!</string>
+    <string name="header_subtitle">What would you like to cook?</string>
+    <string name="main_popular_recipe">Popular Recipes</string>
+    <string name="main_recent_recipe">Recipe Gallery</string>
+    <string name="cookrecipe_servings">Servings</string>
+    <string name="cookrecipe_preptime">Prep Time</string>
+    <string name="cookrecipe_cooktime">Cook Time</string>
+    <string name="cookrecipe_youtube">Watch this video tutorial!</string>
+    <string name="cookrecipe_watchvideo">Watch the video</string>
+    <string name="cookrecipe_addphoto">Add a Photo</string>
+    <string name="cookrecipe_takeaphoto">Take a photo of the finished dish!</string>
+    <string name="recipedetail_servings">Servings</string>
+    <string name="recipedetail_preptime">Prep Time</string>
+    <string name="recipedetail_cooktime">Cook Time</string>
+    <string name="detail_cooknow">Cook Now</string>
+    <string name="detail_savephoto">Save Photo</string>
+    <string name="cooknow_savephoto">Save Photo</string>
+    <string name="string_instruction">Instructions</string>
+    <string name="string_ingredients">Ingredients</string>
+    <string name="text_changephoto">Change Photo</string>
+    <string name="toast_photo_uploaded">Photo successfully uploaded</string>
+    <string name="toast_empty_photo">Uploaded error</string>
+    <string name="toast_permission_denied">Permission Denied</string>
+    <string name="main_galleryemptydesc">Start cooking and take a picture of your finished dish!</string>
+    <string name="main_nutritiontitle">Fact of the Day</string>
+</resources>

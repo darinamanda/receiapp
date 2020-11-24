@@ -1,0 +1,25 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingBottom="70dp"
+        android:paddingTop="20dp"
+        tools:context="id.ac.ui.cs.mobileprogramming.darinamanda.receiapp.fragments.StepFragment">
+
+        <TextView
+            android:id="@+id/textview_instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string_instruction"
+            android:fontFamily="@font/montserrat"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"/>
+
+    </FrameLayout>
+</ScrollView>

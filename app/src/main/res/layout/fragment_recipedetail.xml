@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        >
+
+    <data>
+
+        <variable
+                name="recipeModel"
+                type="id.ac.ui.cs.mobileprogramming.darinamanda.receiapp2.RecipeModel" />
+    </data>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/card_view_image"
+            android:layout_width="match_parent"
+            android:layout_height="292dp"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="50dp"
+            android:padding="20dp"/>
+
+    <TextView
+            android:id="@+id/card_view_image_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@{recipeModel.name}"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:fontFamily="@font/montserrat_bold"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="10dp"
+    >
+
+        <ImageView
+                android:layout_height="15dp"
+                android:layout_width="15dp"
+                android:src="@drawable/ic_star" />
+
+        <TextView
+                android:id="@+id/card_view_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="12dp"
+                android:text="@{recipeModel.rating}"
+                android:textColor="#000" />
+
+        <ImageView
+                android:layout_height="15dp"
+                android:layout_width="15dp"
+                android:src="@drawable/ic_clock_circular_outline"
+                android:tint="@color/colorText"/>
+
+        <TextView
+                android:id="@+id/card_view_preptime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="12dp"
+                android:text="@{recipeModel.total_cook_time}"
+                android:textColor="@color/colorText" />
+
+        <ImageView
+                android:layout_height="15dp"
+                android:layout_width="15dp"
+                android:src="@drawable/ic_dinner"
+                android:tint="@color/colorText"/>
+
+        <TextView
+                android:id="@+id/card_view_difficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="12dp"
+                android:textColor="@color/colorText"
+                android:text="@{recipeModel.difficulty}"/>
+
+    </LinearLayout>
+
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorLighterGray"
+            android:layout_marginBottom="14dp"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginHorizontal="10dp">
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="20dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recipedetail_servings"
+                    android:textColor="@color/colorLightGray" android:fontFamily="@font/montserrat_bold"/>
+
+            <TextView
+                    android:id="@+id/card_view_servings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{recipeModel.servings}"
+                    android:textColor="@color/colorText"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/montserrat_bold"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="20dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recipedetail_preptime"
+                    android:textColor="@color/colorLightGray" android:fontFamily="@font/montserrat_bold"/>
+
+            <TextView
+                    android:id="@+id/card_view_prep_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{recipeModel.prep_time}"
+                    android:textColor="@color/colorText"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/montserrat_bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="20dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recipedetail_cooktime"
+                    android:textColor="@color/colorLightGray"
+                    android:fontFamily="@font/montserrat_bold"/>
+
+            <TextView
+                    android:id="@+id/card_view_cook_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{recipeModel.cook_time}"
+                    android:textColor="@color/colorText"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/montserrat_bold"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/button_cooknow"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@color/colorMain"
+            android:text="@string/detail_cooknow"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="14dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="14dp"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+</LinearLayout>
+</layout>

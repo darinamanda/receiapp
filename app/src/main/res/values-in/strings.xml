@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">receiapp</string>
+    <string name="header_title">Halo!</string>
+    <string name="header_subtitle">Mau masak apa nih hari ini?</string>
+    <string name="main_popular_recipe">Resep Populer</string>
+    <string name="main_recent_recipe">Galeri Resep</string>
+    <string name="cookrecipe_servings">Porsi</string>
+    <string name="cookrecipe_preptime">Waktu Prep</string>
+    <string name="cookrecipe_cooktime">Waktu Masak</string>
+    <string name="cookrecipe_youtube">Tonton video dan ikuti langkahnya!</string>
+    <string name="cookrecipe_watchvideo">Tonton video</string>
+    <string name="cookrecipe_addphoto">Tambah foto</string>
+    <string name="cookrecipe_takeaphoto">Tambahkan foto hasil karyamu!</string>
+    <string name="recipedetail_servings">Porsi</string>
+    <string name="recipedetail_preptime">Waktu Prep</string>
+    <string name="recipedetail_cooktime">Waktu Masak</string>
+    <string name="detail_cooknow">Masak Sekarang</string>
+    <string name="detail_savephoto">Simpan Foto</string>
+    <string name="cooknow_savephoto">Simpan Foto</string>
+    <string name="string_instruction">Cara Masak</string>
+    <string name="string_ingredients">Bahan-bahan</string>
+    <string name="text_changephoto">Ganti Foto</string>
+    <string name="toast_photo_uploaded">Foto berhasil disimpan</string>
+    <string name="toast_empty_photo">Upload error, tambah foto terlebih dahulu</string>
+    <string name="toast_permission_denied">Izin Ditolak</string>
+    <string name="main_galleryemptydesc">Mulailah memasak dan potret hidangan yang anda buat!</string>
+    <string name="main_nutritiontitle">Fakta hari Ini</string>
+</resources>

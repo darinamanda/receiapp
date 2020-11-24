@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nav_graph"
+        app:startDestination="@id/menuRecyclerFragment2">
+
+    <fragment
+            android:id="@+id/menuRecyclerFragment2"
+            android:name="id.ac.ui.cs.mobileprogramming.darinamanda.receiapp2.fragments.MenuFragment"
+            android:label="MenuRecyclerFragment2" >
+        <action
+                android:id="@+id/recipeDetailFragment"
+                app:destination="@id/recipeDetailFragment"
+                app:enterAnim="@anim/nav_default_pop_enter_anim" />
+    </fragment>
+    <fragment
+            android:id="@+id/recipeDetailFragment"
+            android:name="id.ac.ui.cs.mobileprogramming.darinamanda.receiapp2.fragments.RecipeDetailFragment"
+            android:label="RecipeDetailFragment" >
+        <action
+                android:id="@+id/action_recipeDetailFragment_to_menuRecyclerFragment2"
+                app:destination="@id/menuRecyclerFragment2" />
+        <argument
+            android:name="id"
+            android:defaultValue="0"
+            app:argType="integer"/>
+    </fragment>
+</navigation>
